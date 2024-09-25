@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.theme-light {
+    background-color: white;
+    color: black;
+}
+
+.theme-dark {
+    background-color: black;
+    color: white;
+}
+
+.theme-neon {
+    background-color: #0f0f0f;
+    color: #39ff14;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#theme-selector button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
